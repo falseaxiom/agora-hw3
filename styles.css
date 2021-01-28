@@ -1,1 +1,156 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
 
+#container{
+    background-color: #099dfd;
+}
+.flexRow{
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    background-color: white;
+    width: 20vw;
+    height: 100vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0px 4px 52px rgba(0,0,0,0.13);
+}
+.right{
+    flex: 1;
+    text-align: center;
+}
+
+.logo{
+    width: 60%;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+#img-container{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#login-container{
+    margin-top: 20vh;
+}
+#heading-text{
+    font-size: 1.5rem;
+}
+#highlighted{
+    color: #099dfd;
+}
+
+input{
+    margin-top: 10px;
+    padding: 5px;
+    width: 90%;
+    font-size: 1.25rem;
+    border: 2px solid #099dfd;
+    border-radius: 5px;
+}
+#email{
+    margin-top: 20px;
+}
+.submitButton{
+    background-color: #099dfd;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    border: none;
+    font-size: 1.25rem;
+    border-radius: 5px;
+}
+
+#circle-container{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 650px;
+    height: 650px;
+    border-radius: 1000px;
+    background-color: #ffffff4b;
+    justify-items: center;
+    margin-bottom: 100px;
+}
+#illustration-container{
+    width: 500px;
+    margin: auto;
+    padding-bottom: 45px;
+}
+
+#bottom-text{
+    font-size: 1.75rem;
+    color: white;
+}
+
+.incorrect{
+    border: 2px solid red;
+}
+
+/* the rest is for videoChat.html */
+.logoSmall{
+    width: 30%;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+#join-container{
+    margin-top: 5vh;
+    padding-left: 5%;
+}
+
+#participant-container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+    
+}
+
+.participant{
+    padding-top: 20px;
+    font-size: 1.5rem;
+}
+
+.rightContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+#otherVidsContainer{
+    white-space: nowrap;
+    margin-top: 20px;
+    width: 800px;
+    height: 260px;
+    overflow: scroll;
+}
+
+#SelfStream{
+    text-align: left;
+    margin-top: 150px;
+    justify-self: center;
+    border: 2px solid #099dfd;
+    width: 800px;
+    height: 500px;
+    border-radius: 5px;
+}
+.remoteStream{
+    display: inline-block;
+    text-align: left;
+    justify-self: center;
+    border: 2px solid #099dfd;
+    width: 400px;
+    height: 250px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
